@@ -67,7 +67,7 @@ class App extends Component{
                         {this.state.cards.map((card) => {
                           return(
                             <Poker
-                              key = {card}
+                              key = {Math.random()}/*{card}*/
                               card={card}
                             />
                           )
